@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Instagram Clone</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <i class="fa fa-instagram" style="width: 300px;"></i>
+                    </a>
+                </div>
+                <div class="searchbar">
+                    <input type="text" placeholder="Search">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220609093658/search-200x200.png"
+                        height="18" alt="img2">
+                </div>
+                <div class="nav-links">
+                    <ul class="nav-group">
+                        
+                        <li class="nav-item">
+                            <div class="action">
+                                <div class="profile">
+                                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220609093221/g2-200x200.jpg"
+                                        alt="user Avatar">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="col-9">
+                <div class="statuses">
+                    <div class="status">
+                        <div class="image">
+                            <img src="https://images.unsplash.com/photo-1723743809756-d8576dc3fe59?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="img3">
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="image">
+                            <img src="https://images.unsplash.com/photo-1723743809756-d8576dc3fe59?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D">
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="image">
+                            <img src="https://images.unsplash.com/photo-1723743809756-d8576dc3fe59?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D">
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="image">
+                            <img src="https://images.unsplash.com/photo-1723743809756-d8576dc3fe59?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D">
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="image">
+                            <img src="https://images.unsplash.com/photo-1723743809756-d8576dc3fe59?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D">
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="image">
+                            <img src="https://images.unsplash.com/photo-1723743809756-d8576dc3fe59?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Code for viewing the Post -->
+                <div class="card">
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220609093229/g-200x200.png"
+                                            alt="img8">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Ayush 
+                                <br>
+                                <span>gujarat, India</span>
+                            </h3>
+                        </div>
+                        <div>
+                            <span class="dot">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgBx">
+                        <img src="https://images.unsplash.com/file-1715652217532-464736461acbimage?w=416&dpr=2&auto=format&fit=crop&q=60"
+                            alt="post-1" class="cover">
+                    </div>
+                    <div class="bottom">
+                        <div class="actionBtns">
+                            <div class="left">
+                                <span class="heart">
+                                    <span>
+                                        <button id="l1";style="background-color: white;border: none;" onclick="like()"> <i class="fa fa-heart-o"></i></button>
+                                    </span>
+                                </span>
+                                <span class="comment">
+                                    <span>
+                                        <button style="background-color: white;border: none;"><i class='far fa-comment' style='font-size:24px'></i></button>
+                                        
+                                    </span>
+                                </span>
+                                <span class="Share">
+                                    <span>
+                                        <button style="background-color: white;border: none;">  <i class="fa fa-share"></i></button>
+                                    </span>
+                                </span>
+                            </div>
+                    
+                        </div>
+                        <a href="#">
+                            <p class="likes"><div class="l">203</div> likes</p>
+
+                        </a>
+                        <a href="#">
+                            <p class="message">
+                                <b>Raju Modi</b>
+                            </p>
+
+                        </a>
+                        <a href="#">
+                            <h4 class="comments">View all 32 comments</h4>
+                        </a>
+                        <a href="#">
+                            <h5 class="postTime">2 hours ago</h5>
+                        </a>
+                        <div class="addComments">
+                            <div class="reaction">
+                                <h3>
+                                    <i class="far fa-smile"></i>
+                                </h3>
+                            </div>
+                            <input type="text" class="text" placeholder="Add a comment...">
+                            <a href="#">Post</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220609093241/g3-200x200.png"
+                                            alt="img9">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Piyush<br>
+                                <span>gujarat, India</span>
+                            </h3>
+                        </div>
+                        <div>
+                            <span class="dot">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgBx">
+                        <img src="https://images.unsplash.com/photo-1724614767087-3bd027d6ebc3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8fA%3D%3D"
+                            alt="post-1" class="cover">
+                    </div>
+                    <div class="bottom">
+                        <div class="actionBtns">
+                            <div class="left">
+                                <span class="heart">
+                                    <span>
+                                        <i class="fa fa-heart-o"></i>
+                                    </span>
+                                </span>
+                                <span class="comment">
+                                    <span>
+                                        <i class='far fa-comment' style='font-size:24px'></i>
+                                    </span>
+                                </span>
+                                <span class="Share">
+                                    <span>
+                                        <i class="fa fa-share"></i>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Adding number of like and name of people  -->
+
+                        <a href="#">
+                            <p class="likes">119 likes</p>
+
+                        </a>
+                        <a href="#">
+                            <p class="message">
+                                <b>Piyush Agarwal</b>
+                            </p>
+
+                        </a>
+                        <a href="#">
+                            <h4 class="comments">View all 20 comments</h4>
+                        </a>
+                        <a href="#">
+                            <h5 class="postTime">4 hours ago</h5>
+                        </a>
+                        <div class="addComments">
+                            <div class="reaction">
+                                <h3><i class="far fa-smile"></i></h3>
+                            </div>
+                            <input type="text" class="text" placeholder="Add a comment...">
+                            <a href="#">Post</a>
+                        </div>
+                    </div>
+                </div>
+           
+            <div class="col-3">
+                <div class="card">
+                    <h4>Suggestions For You</h4>
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <i class="fa fa-heart-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Aditya jay<br>
+                                <span>Follows You</span>
+                            </h3>
+                        </div>
+                        <div>
+                            <a href="#" class="follow">follow
+                            </a>
+                        </div>
+                    </div>
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220609093229/g-200x200.png"
+                                            alt="img13">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Amit<br>
+                                <span>Follows You</span>
+                            </h3>
+                        </div>
+                        <div>
+                            <a href="#" class="follow">follow
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footer">
+                    <a class="footer-section" href="#">About</a>
+                    <a class="footer-section" href="#">Help</a>
+                    <a class="footer-section" href="#">API</a>
+                    <a class="footer-section" href="#">Jobs</a>
+                    <a class="footer-section" href="#">Privacy</a>
+                    <a class="footer-section" href="#">Terms</a>
+                    <a class="footer-section" href="#">Locations</a>
+                    <br>
+                    <span class="footer-section">
+                        &copy; 2024 INSTAGRAM FROM FACEBOOK
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
